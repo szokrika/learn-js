@@ -5,4 +5,4 @@ var fullAge = true;
 
 var fullName = firstName + ", " + lastName; // string concatenation
 
-console.log(fullAge);
+console.log(fullAge, fullName);
