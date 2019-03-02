@@ -3,22 +3,22 @@ const person = {
   age: 28,
   sex: "male"
 };
-console.log(person);
+console.log("1", person);
 
 // mutating operations
 // note that person is stored as reference, so any operation is changing the original
 
 //add field
 person.email = "test@test.ca";
-console.log(person);
+console.log("2", person, person.email);
 
 //update field
 person.age = 30;
-console.log(person);
+console.log("3", person);
 
 //delete field
 delete person.sex;
-console.log(person);
+console.log("4", person);
 
 // non-mutating operatins using ES6 features
 // we are returning a new object whithout modifiing the original

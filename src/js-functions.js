@@ -9,7 +9,6 @@ function toNumber(myString, decimal) {
 }
 
 // ES5 constructor function
-
 function Person(name, age, email, birthDate) {
   this.name = upper(name);
   this.age = toNumber(age, 0);
@@ -31,5 +30,8 @@ function Person(name, age, email, birthDate) {
 const person = new Person("John Doe", "22", "peter@test.com", "1979 august 16");
 console.log(person);
 
-person.updateName("Jane Doe");
-console.log(person);
+const person2 = new Person("Johann S", "66", "jo@test.com", "1950 august 10");
+console.log(person2);
+
+// person.updateName("Jane Doe");
+// console.log(person);

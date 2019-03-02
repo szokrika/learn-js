@@ -1,8 +1,11 @@
-var firstName = "John";
-var lastName = "Smith";
-var age = 28;
-var fullAge = true;
+var firstName = "John"; // String
+var lastName = "Smith"; // String
+var age = 28; // Number
+var fullAge = true; // Boolean
 
-var fullName = firstName + ", " + lastName; // string concatenation
+// Operations:
+// string concatenation
+var fullName = firstName + ", " + lastName;
+var es6FullName = `${firstName}, ${lastName}`;
 
-console.log(fullAge, fullName);
+console.log(fullAge, fullName, es6FullName);
